@@ -35,28 +35,28 @@ This system processes multiple surveillance video clips to:
 
 ### Setup
 
-1. **Install dependencies**:
+1. **Create and activate conda environment** (recommended):
 ```bash
-pip install -r requirements.txt
+conda create -n blackrover python=3.10 -y
+conda activate blackrover
 ```
 
-2. **Download required models**:
-
-Models are downloaded automatically by ultralytics and torchreid on first run, or download manually:
-
+2. **Install all dependencies**:
 ```bash
-# YOLO models (place in project root)
-wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolo11n.pt
-wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolo11n-pose.pt
-
-# Gun detection model (trained custom model)
-# Place best.pt in project root (provided with submission)
-
-# ReID models (auto-downloaded by torchreid to ~/.cache/torch)
-# - osnet_x1_0
-# - osnet_ain_x1_0
-# These download automatically on first run
+chmod +x setup.sh
+./setup.sh
 ```
+
+The `setup.sh` script will:
+- Upgrade pip
+- Install PyTorch with CUDA 12.1 support
+- Install ffmpeg (via conda or apt)
+- Install all Python dependencies from `requirements.txt`
+- Install torchreid from source for latest features
+
+**Note**: 
+- Gun detection model (`best.pt`) is already included in the repository
+- YOLO and ReID models are downloaded automatically on first run
 
 3. **Prepare input videos**:
 Place your 4 video clips in the `input/` directory as:
@@ -69,7 +69,8 @@ Place your 4 video clips in the `input/` directory as:
 
 **Single command to reproduce all outputs**:
 ```bash
-bash run_all.sh
+chmod +x run_all.sh
+./run_all.sh
 ```
 
 This executes all 4 steps in sequence (takes ~15-30 minutes depending on GPU):
@@ -259,13 +260,12 @@ python run_scene_labeling.py --input input/ --output data/scene_labels.json
 2. **Action Recognition**: Classify behaviors (loitering, reaching, examining items)
 3. **Temporal Modeling**: LSTM/Transformer for sequence-level understanding
 4. **Better Gun Detection**: Fine-tune on retail scenarios, reduce false positives
-5. **Another Better Gun Detection**: I should have tried SAM as well!
-6. **Multi-camera Calibration**: Handle overlapping views from multiple angles
-7. **Track Re-association**: Recover identity after long occlusions
-8. **Appearance Changes**: Handle clothing changes via face recognition fallback
-9. **Explainable AI**: Generate detailed event timelines with confidence scores
-10. **Real-time Processing**: Optimize for streaming video analysis
-11. **Anomaly Detection**: Detect unusual patterns without specific crime models
+5. **Multi-camera Calibration**: Handle overlapping views from multiple angles
+6. **Track Re-association**: Recover identity after long occlusions
+7. **Appearance Changes**: Handle clothing changes via face recognition fallback
+8. **Explainable AI**: Generate detailed event timelines with confidence scores
+9. **Real-time Processing**: Optimize for streaming video analysis
+10. **Anomaly Detection**: Detect unusual patterns without specific crime models
 
 **Production Considerations**:
 - Model quantization for faster inference
@@ -353,4 +353,19 @@ blackrover/
 - Check pose detection confidence threshold
 
 ---
+
+## 📄 License & Credits
+
+**Models**:
+- YOLO: Ultralytics (AGPL-3.0)
+- OSNet: Torchreid (MIT)
+- DeepSORT: nwojke (GPLv3)
+
+**Implementation**: Custom pipeline for surveillance analysis assignment
+
+---
+
+## 📧 Contact
+
+For questions or issues, please refer to the code documentation or reach out to the development team.
 
