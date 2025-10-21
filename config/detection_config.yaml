@@ -1,0 +1,14 @@
+yolo:
+  model_path: "models/yolo11x.pt"
+  conf_threshold: 0.5
+  iou_threshold: 0.45
+  classes:
+    person: 0
+    handbag: 26
+    bottle: 39
+    
+pose:
+  model_path: "models/yolo11x-pose.pt"
+  conf_threshold: 0.5
+  keypoint_threshold: 0.3
+

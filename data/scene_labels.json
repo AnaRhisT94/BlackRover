@@ -1,0 +1,37 @@
+{
+  "clips": [
+    {
+      "clip_id": "1",
+      "label": "crime",
+      "justification": "Theft detected at 14.4s by global_person_001 (left wrist) Gun held in right hand detected at 7.7s (person_index: 0) Gun held in left hand detected at 8.9s (person_index: 1) Gun held in left hand detected at 9.4s (person_index: 2)",
+      "theft_events_count": 1,
+      "gun_events_count": 48
+    },
+    {
+      "clip_id": "2",
+      "label": "crime",
+      "justification": "Gun held in left hand detected at 0.6s (person_index: 1) Gun held in left hand detected at 0.8s (person_index: 2) Gun held in left hand detected at 1.9s (person_index: 0) Gun held in right hand detected at 12.6s (person_index: 3)",
+      "theft_events_count": 0,
+      "gun_events_count": 305
+    },
+    {
+      "clip_id": "3",
+      "label": "crime",
+      "justification": "Theft detected at 20.1s by unknown_track_35 (right wrist) Gun held in right hand detected at 1.0s (person_index: 0) Gun held in right hand detected at 3.0s (person_index: 1) Gun held in right hand detected at 6.7s (person_index: 2)",
+      "theft_events_count": 1,
+      "gun_events_count": 37
+    },
+    {
+      "clip_id": "4",
+      "label": "crime",
+      "justification": "Gun held in right hand detected at 8.9s (person_index: 1) Gun held in right hand detected at 9.7s (person_index: 0)",
+      "theft_events_count": 0,
+      "gun_events_count": 27
+    }
+  ],
+  "metadata": {
+    "total_clips": 4,
+    "crime_clips": 4,
+    "normal_clips": 0
+  }
+}

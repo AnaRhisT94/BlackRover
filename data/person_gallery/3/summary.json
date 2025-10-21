@@ -1,0 +1,95 @@
+{
+  "video_name": "3",
+  "total_tracks": 8,
+  "saved_tracks": 5,
+  "skipped_overlap": 3,
+  "min_confidence": 0.75,
+  "max_iou_threshold": 0.15,
+  "tracks_metadata": [
+    {
+      "track_id": 1,
+      "video_name": "3",
+      "total_frames": 504,
+      "avg_confidence": 0.8776281690077176,
+      "selected_frame_idx": 318,
+      "selected_confidence": 1.0,
+      "width": 172,
+      "height": 214,
+      "isolation_score": 1.0,
+      "quality_score": 0.7665653935185186,
+      "num_keypoints": 10,
+      "bbox_average": [
+        182.37867100643174,
+        213.313522915661
+      ]
+    },
+    {
+      "track_id": 2,
+      "video_name": "3",
+      "total_frames": 591,
+      "avg_confidence": 0.9056103237591016,
+      "selected_frame_idx": 331,
+      "selected_confidence": 1.0,
+      "width": 122,
+      "height": 187,
+      "isolation_score": 1.0,
+      "quality_score": 0.7412579571759259,
+      "num_keypoints": 15,
+      "bbox_average": [
+        135.5708853660516,
+        182.59789056674467
+      ]
+    },
+    {
+      "track_id": 3,
+      "video_name": "3",
+      "total_frames": 522,
+      "avg_confidence": 0.9066431469844218,
+      "selected_frame_idx": 307,
+      "selected_confidence": 1.0,
+      "width": 120,
+      "height": 233,
+      "isolation_score": 1.0,
+      "quality_score": 0.7505642361111111,
+      "num_keypoints": 11,
+      "bbox_average": [
+        126.52054537978351,
+        227.09932331382757
+      ]
+    },
+    {
+      "track_id": 9,
+      "video_name": "3",
+      "total_frames": 211,
+      "avg_confidence": 0.912336435363191,
+      "selected_frame_idx": 157,
+      "selected_confidence": 0.9395162463188171,
+      "width": 291,
+      "height": 284,
+      "isolation_score": 1.0,
+      "quality_score": 0.8252639638053048,
+      "num_keypoints": 14,
+      "bbox_average": [
+        129.13097740379712,
+        190.28028068185782
+      ]
+    },
+    {
+      "track_id": 10,
+      "video_name": "3",
+      "total_frames": 361,
+      "avg_confidence": 0.9029559910792724,
+      "selected_frame_idx": 543,
+      "selected_confidence": 1.0,
+      "width": 43,
+      "height": 96,
+      "isolation_score": 1.0,
+      "quality_score": 0.7074652777777778,
+      "num_keypoints": 12,
+      "bbox_average": [
+        110.83904496808992,
+        164.9912671543948
+      ]
+    }
+  ]
+}

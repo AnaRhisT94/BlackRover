@@ -1,0 +1,78 @@
+{
+  "video_name": "1",
+  "total_tracks": 5,
+  "saved_tracks": 4,
+  "skipped_overlap": 1,
+  "min_confidence": 0.75,
+  "max_iou_threshold": 0.15,
+  "tracks_metadata": [
+    {
+      "track_id": 1,
+      "video_name": "1",
+      "total_frames": 561,
+      "avg_confidence": 0.9009336856809742,
+      "selected_frame_idx": 565,
+      "selected_confidence": 0.9386099576950073,
+      "width": 118,
+      "height": 223,
+      "isolation_score": 1.0,
+      "quality_score": 0.7230315120131882,
+      "num_keypoints": 15,
+      "bbox_average": [
+        99.97903658669303,
+        189.7280264801897
+      ]
+    },
+    {
+      "track_id": 2,
+      "video_name": "1",
+      "total_frames": 21,
+      "avg_confidence": 0.8656073893819537,
+      "selected_frame_idx": 8,
+      "selected_confidence": 0.8817586302757263,
+      "width": 73,
+      "height": 183,
+      "isolation_score": 1.0,
+      "quality_score": 0.6768625232908461,
+      "num_keypoints": 15,
+      "bbox_average": [
+        68.80609486179011,
+        177.86024930318914
+      ]
+    },
+    {
+      "track_id": 4,
+      "video_name": "1",
+      "total_frames": 279,
+      "avg_confidence": 0.8538288736856112,
+      "selected_frame_idx": 356,
+      "selected_confidence": 1.0,
+      "width": 77,
+      "height": 163,
+      "isolation_score": 1.0,
+      "quality_score": 0.7226978443287038,
+      "num_keypoints": 13,
+      "bbox_average": [
+        76.17140237835615,
+        136.55436770451215
+      ]
+    },
+    {
+      "track_id": 6,
+      "video_name": "1",
+      "total_frames": 140,
+      "avg_confidence": 0.8935806431940624,
+      "selected_frame_idx": 578,
+      "selected_confidence": 0.9338716864585876,
+      "width": 105,
+      "height": 231,
+      "isolation_score": 1.0,
+      "quality_score": 0.7174126068751018,
+      "num_keypoints": 16,
+      "bbox_average": [
+        107.02139898036407,
+        189.94426722631243
+      ]
+    }
+  ]
+}

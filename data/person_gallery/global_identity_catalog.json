@@ -1,0 +1,323 @@
+{
+  "global_person_001": {
+    "global_id": 1,
+    "appearances": [
+      {
+        "clip_id": "1",
+        "track_id": 1,
+        "frame_range": [
+          0,
+          565
+        ],
+        "total_frames": 561,
+        "avg_confidence": 0.9009336856809742,
+        "quality_score": 0.7230315120131882,
+        "selected_frame_idx": 565
+      },
+      {
+        "clip_id": "1",
+        "track_id": 2,
+        "frame_range": [
+          0,
+          8
+        ],
+        "total_frames": 21,
+        "avg_confidence": 0.8656073893819537,
+        "quality_score": 0.6768625232908461,
+        "selected_frame_idx": 8
+      },
+      {
+        "clip_id": "2",
+        "track_id": 1,
+        "frame_range": [
+          0,
+          397
+        ],
+        "total_frames": 1068,
+        "avg_confidence": 0.9016880159186067,
+        "quality_score": 0.8382812500000001,
+        "selected_frame_idx": 397
+      },
+      {
+        "clip_id": "2",
+        "track_id": 2,
+        "frame_range": [
+          0,
+          131
+        ],
+        "total_frames": 792,
+        "avg_confidence": 0.892012755753416,
+        "quality_score": 0.7037825213538276,
+        "selected_frame_idx": 131
+      },
+      {
+        "clip_id": "2",
+        "track_id": 3,
+        "frame_range": [
+          0,
+          25
+        ],
+        "total_frames": 32,
+        "avg_confidence": 0.9925449974834919,
+        "quality_score": 0.7912868923611112,
+        "selected_frame_idx": 25
+      },
+      {
+        "clip_id": "2",
+        "track_id": 5,
+        "frame_range": [
+          0,
+          121
+        ],
+        "total_frames": 891,
+        "avg_confidence": 0.9017487859351333,
+        "quality_score": 0.7153422903131555,
+        "selected_frame_idx": 121
+      },
+      {
+        "clip_id": "2",
+        "track_id": 7,
+        "frame_range": [
+          0,
+          329
+        ],
+        "total_frames": 19,
+        "avg_confidence": 0.8210130929946899,
+        "quality_score": 0.6574615363721494,
+        "selected_frame_idx": 329
+      },
+      {
+        "clip_id": "2",
+        "track_id": 8,
+        "frame_range": [
+          0,
+          406
+        ],
+        "total_frames": 52,
+        "avg_confidence": 0.8558119363509692,
+        "quality_score": 0.6720291402604845,
+        "selected_frame_idx": 406
+      },
+      {
+        "clip_id": "2",
+        "track_id": 11,
+        "frame_range": [
+          0,
+          423
+        ],
+        "total_frames": 41,
+        "avg_confidence": 0.8259179228689613,
+        "quality_score": 0.6661727454927233,
+        "selected_frame_idx": 423
+      },
+      {
+        "clip_id": "3",
+        "track_id": 2,
+        "frame_range": [
+          0,
+          331
+        ],
+        "total_frames": 591,
+        "avg_confidence": 0.9056103237591016,
+        "quality_score": 0.7412579571759259,
+        "selected_frame_idx": 331
+      },
+      {
+        "clip_id": "3",
+        "track_id": 9,
+        "frame_range": [
+          0,
+          157
+        ],
+        "total_frames": 211,
+        "avg_confidence": 0.912336435363191,
+        "quality_score": 0.8252639638053048,
+        "selected_frame_idx": 157
+      }
+    ],
+    "total_appearances": 11,
+    "videos": [
+      "1",
+      "2",
+      "3"
+    ],
+    "total_frames": 4279,
+    "avg_intra_cluster_similarity": 0.6368,
+    "min_intra_cluster_similarity": 0.5011,
+    "max_intra_cluster_similarity": 0.7606
+  },
+  "global_person_002": {
+    "global_id": 2,
+    "appearances": [
+      {
+        "clip_id": "1",
+        "track_id": 4,
+        "frame_range": [
+          0,
+          356
+        ],
+        "total_frames": 279,
+        "avg_confidence": 0.8538288736856112,
+        "quality_score": 0.7226978443287038,
+        "selected_frame_idx": 356
+      },
+      {
+        "clip_id": "1",
+        "track_id": 6,
+        "frame_range": [
+          0,
+          578
+        ],
+        "total_frames": 140,
+        "avg_confidence": 0.8935806431940624,
+        "quality_score": 0.7174126068751018,
+        "selected_frame_idx": 578
+      }
+    ],
+    "total_appearances": 2,
+    "videos": [
+      "1"
+    ],
+    "total_frames": 419,
+    "avg_intra_cluster_similarity": 0.6333,
+    "min_intra_cluster_similarity": 0.6333,
+    "max_intra_cluster_similarity": 0.6333
+  },
+  "global_person_003": {
+    "global_id": 3,
+    "appearances": [
+      {
+        "clip_id": "4",
+        "track_id": 1,
+        "frame_range": [
+          0,
+          261
+        ],
+        "total_frames": 272,
+        "avg_confidence": 0.8876558962990256,
+        "quality_score": 0.743422187699212,
+        "selected_frame_idx": 261
+      },
+      {
+        "clip_id": "4",
+        "track_id": 8,
+        "frame_range": [
+          0,
+          649
+        ],
+        "total_frames": 542,
+        "avg_confidence": 0.9041228644082467,
+        "quality_score": 0.749046966764662,
+        "selected_frame_idx": 649
+      }
+    ],
+    "total_appearances": 2,
+    "videos": [
+      "4"
+    ],
+    "total_frames": 814,
+    "avg_intra_cluster_similarity": 0.6354,
+    "min_intra_cluster_similarity": 0.6354,
+    "max_intra_cluster_similarity": 0.6354
+  },
+  "global_person_004": {
+    "global_id": 4,
+    "appearances": [
+      {
+        "clip_id": "3",
+        "track_id": 1,
+        "frame_range": [
+          0,
+          318
+        ],
+        "total_frames": 504,
+        "avg_confidence": 0.8776281690077176,
+        "quality_score": 0.7665653935185186,
+        "selected_frame_idx": 318
+      }
+    ],
+    "total_appearances": 1,
+    "videos": [
+      "3"
+    ],
+    "total_frames": 504,
+    "avg_intra_cluster_similarity": 1.0,
+    "min_intra_cluster_similarity": 1.0,
+    "max_intra_cluster_similarity": 1.0
+  },
+  "global_person_005": {
+    "global_id": 5,
+    "appearances": [
+      {
+        "clip_id": "3",
+        "track_id": 3,
+        "frame_range": [
+          0,
+          307
+        ],
+        "total_frames": 522,
+        "avg_confidence": 0.9066431469844218,
+        "quality_score": 0.7505642361111111,
+        "selected_frame_idx": 307
+      }
+    ],
+    "total_appearances": 1,
+    "videos": [
+      "3"
+    ],
+    "total_frames": 522,
+    "avg_intra_cluster_similarity": 1.0,
+    "min_intra_cluster_similarity": 1.0,
+    "max_intra_cluster_similarity": 1.0
+  },
+  "global_person_006": {
+    "global_id": 6,
+    "appearances": [
+      {
+        "clip_id": "3",
+        "track_id": 10,
+        "frame_range": [
+          0,
+          543
+        ],
+        "total_frames": 361,
+        "avg_confidence": 0.9029559910792724,
+        "quality_score": 0.7074652777777778,
+        "selected_frame_idx": 543
+      }
+    ],
+    "total_appearances": 1,
+    "videos": [
+      "3"
+    ],
+    "total_frames": 361,
+    "avg_intra_cluster_similarity": 1.0,
+    "min_intra_cluster_similarity": 1.0,
+    "max_intra_cluster_similarity": 1.0
+  },
+  "global_person_007": {
+    "global_id": 7,
+    "appearances": [
+      {
+        "clip_id": "4",
+        "track_id": 2,
+        "frame_range": [
+          0,
+          262
+        ],
+        "total_frames": 619,
+        "avg_confidence": 0.912208318806619,
+        "quality_score": 0.7677203257878622,
+        "selected_frame_idx": 262
+      }
+    ],
+    "total_appearances": 1,
+    "videos": [
+      "4"
+    ],
+    "total_frames": 619,
+    "avg_intra_cluster_similarity": 1.0,
+    "min_intra_cluster_similarity": 1.0,
+    "max_intra_cluster_similarity": 1.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "track_id": 1,
+  "video_name": "2",
+  "total_frames": 1068,
+  "avg_confidence": 0.9016880159186067,
+  "selected_frame_idx": 397,
+  "selected_confidence": 1.0,
+  "width": 236,
+  "height": 324,
+  "isolation_score": 1.0,
+  "quality_score": 0.8382812500000001,
+  "num_keypoints": 15,
+  "bbox_average": [
+    205.63544419957864,
+    234.45442045174556
+  ]
+}

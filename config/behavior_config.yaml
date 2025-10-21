@@ -1,0 +1,18 @@
+crime_detection:
+  velocity_threshold: 50.0  # pixels/frame for "fast pace"
+  time_window: 60  # frames to track behavior
+  iou_threshold: 0.15  # hand-clothing overlap
+  grab_iou_threshold: 0.1  # hand-object overlap
+  
+zones:
+  counter_roi:
+    - [100, 200, 500, 400]  # [x1, y1, x2, y2] - adjust per camera
+  
+pose_keypoints:
+  left_wrist: 9
+  right_wrist: 10
+  left_shoulder: 5
+  right_shoulder: 6
+  left_hip: 11
+  right_hip: 12
+
