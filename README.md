@@ -259,12 +259,13 @@ python run_scene_labeling.py --input input/ --output data/scene_labels.json
 2. **Action Recognition**: Classify behaviors (loitering, reaching, examining items)
 3. **Temporal Modeling**: LSTM/Transformer for sequence-level understanding
 4. **Better Gun Detection**: Fine-tune on retail scenarios, reduce false positives
-5. **Multi-camera Calibration**: Handle overlapping views from multiple angles
-6. **Track Re-association**: Recover identity after long occlusions
-7. **Appearance Changes**: Handle clothing changes via face recognition fallback
-8. **Explainable AI**: Generate detailed event timelines with confidence scores
-9. **Real-time Processing**: Optimize for streaming video analysis
-10. **Anomaly Detection**: Detect unusual patterns without specific crime models
+5. **Another Better Gun Detection**: I should have tried SAM as well!
+6. **Multi-camera Calibration**: Handle overlapping views from multiple angles
+7. **Track Re-association**: Recover identity after long occlusions
+8. **Appearance Changes**: Handle clothing changes via face recognition fallback
+9. **Explainable AI**: Generate detailed event timelines with confidence scores
+10. **Real-time Processing**: Optimize for streaming video analysis
+11. **Anomaly Detection**: Detect unusual patterns without specific crime models
 
 **Production Considerations**:
 - Model quantization for faster inference
@@ -352,19 +353,4 @@ blackrover/
 - Check pose detection confidence threshold
 
 ---
-
-## 📄 License & Credits
-
-**Models**:
-- YOLO: Ultralytics (AGPL-3.0)
-- OSNet: Torchreid (MIT)
-- DeepSORT: nwojke (GPLv3)
-
-**Implementation**: Custom pipeline for surveillance analysis assignment
-
----
-
-## 📧 Contact
-
-For questions or issues, please refer to the code documentation or reach out to the development team.
 
